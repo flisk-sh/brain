@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with: { fetch-depth: 0 }
-      - uses: flisk-sh/gel@aa771a8f5b779dcd56365bf04b6681461f3b2908 # v1.6.0
+      - uses: flisk-sh/gel@baf8a9789b7dcd815763a7bdb186186761417cb7 # v1.7.0
