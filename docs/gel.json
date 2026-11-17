@@ -14,7 +14,7 @@
       "ratio": 10,
       "better": "lower"
     },
-    "result": "bench/north-star.json",
+    "result": "docs/north-star/result.json",
     "evidence": "bench/bench.mjs",
     "measure": "node bench/bench.mjs",
     "max_age_days": 30
