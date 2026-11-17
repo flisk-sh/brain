@@ -1,11 +1,12 @@
 {
-  "mode": "report",
+  "mode": "block",
   "status": "experimental",
   "owner": "@odykyi",
   "guards": {
     "north-star": "block",
     "five-second-test": "block",
-    "secret-scan": "block"
+    "secret-scan": "block",
+    "done-without-green": "block"
   },
   "north_star": {
     "metric": "search a common word across 5,000 saved sessions",
