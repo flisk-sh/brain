@@ -64,9 +64,9 @@ test('tidyPaths makes a path inside cwd relative', () => {
 });
 
 test('tidyPaths shortens a path outside cwd', () => {
-  assert.equal(tidyPaths('/opt/other/x/y', '/home/project'), '.../y');
+  assert.equal(tidyPaths('/opt/other/x/y', '/home/project'), '.../x/y');
 });
 
 test('tidyPaths shortens an absolute path when no cwd is given', () => {
-  assert.equal(tidyPaths('/opt/other/x/y'), '.../y');
+  assert.equal(tidyPaths('/opt/other/x/y'), '.../x/y');
 });
