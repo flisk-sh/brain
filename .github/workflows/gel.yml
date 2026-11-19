@@ -8,3 +8,5 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
         with: { fetch-depth: 0 }
       - uses: flisk-sh/gel@baf8a9789b7dcd815763a7bdb186186761417cb7 # v1.7.0
+      - name: Run privacy filter tests
+        run: node --test
