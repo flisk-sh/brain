@@ -10,5 +10,5 @@
   "files": ["bin", "lib", "app", "LICENSE", "README.md"],
   "engines": { "node": ">=18" },
   "publishConfig": { "access": "public" },
-  "scripts": { "serve": "node bin/brain.mjs serve" }
+  "scripts": { "serve": "node bin/brain.mjs serve", "test": "node --test" }
 }
